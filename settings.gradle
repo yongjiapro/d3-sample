@@ -1,0 +1,8 @@
+rootProject.name = 'd3-sample'
+
+include 'd3-starter'
+include 'd3-interfaces'
+include 'd3-application'
+include 'd3-domain'
+include 'd3-infrastructure'
+
