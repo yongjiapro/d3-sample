@@ -10,7 +10,10 @@ dependencies {
     implementation(project(':d3-application'))
     implementation(project(':d3-domain'))
     implementation(project(':d3-infrastructure'))
+
+    implementation 'com.baomidou:mybatis-plus-boot-starter:3.4.0'
     implementation 'org.springframework.boot:spring-boot-starter'
+
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
